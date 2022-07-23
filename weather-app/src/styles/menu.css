@@ -1,0 +1,34 @@
+.menuComponent {
+    position:relative;
+    width:100%;
+    margin:0px 0px 0px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:white;
+    user-select:none;
+    border-radius:50px;
+}
+.menuComponent button {
+    background:transparent;
+    border:0px;
+    outline:none !important;
+    cursor:pointer;
+    padding:0px;
+    border-radius:50%;
+    border-color:#fff;
+    outline-color: #2DB6DB;
+}
+button:active, button:focus {
+    outline:none;
+    outline-color: #2DB6DB;
+}
+.menuComponent button span {
+    color:#CBCBCB;
+    padding:20px;
+    font-size:2rem;
+    border-radius:50%;
+}
+.selected {
+    color:#2DB6DB !important;
+}
